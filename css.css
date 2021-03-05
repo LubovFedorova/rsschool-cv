@@ -1,0 +1,176 @@
+body {
+    height: 100vh;
+    font-size: 14px;
+}
+.wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+aside {
+    float:left;
+    width:35%;
+    box-sizing: border-box;
+}
+main {
+    margin-left: 37%;
+    margin-right: 2%;
+}
+.name{
+    margin-bottom: 10%;
+    text-align: center;
+}
+img {
+    width: 50%;
+    border-radius: 50%;
+}
+.name h1{
+    font-family: 'Ballet', cursive;
+    font-size: 500%;
+    line-height: 70%;
+    text-align:right;
+}
+.surname {
+    font-family: 'Vesper Libre', serif;
+    font-size: 80%;
+}
+.contact {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #e3f1f1;
+    position: relative;
+    padding: 12% 0;
+}
+.contactHead {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin: 3% auto; 
+    position: absolute;
+    top: -15%;
+    left: 23%;
+}
+.contact ul li {
+    padding: 2%;
+}
+.contact ul li i {
+    margin-right: 2%;
+}
+main {
+    font-family: 'Lato', sans-serif;
+}
+main article {
+    margin: 4% 0 ;
+}
+.aboutMe {
+    margin-top: 1%;
+}
+main header h2 {
+    border-bottom: 1px solid #000;
+    flex:39;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 2% 0;
+    line-height: 15%;
+}
+main header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+header i {
+    margin-right: 2%;
+    border: 1px solid #e3f1f1;
+    background-color: #e3f1f1;
+    padding: 2%;
+    border-radius: 50%;
+    flex:1;
+}
+.aboutMe p {
+    text-align: justify;
+}
+.educationWrap {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 100%;
+}
+.faculty {
+    font-weight: 500;
+}
+.skills ul {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.skills ul li {
+    text-transform: uppercase;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.skills ul li p {
+    flex: 1;
+}
+.skills ul li div {
+    flex: 2;
+}
+.languages ul li{
+    text-transform: uppercase;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.languages ul li p {
+    flex: 1;
+}
+.languages ul li div {
+    flex: 2;
+}
+
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '●';
+}
+.rating-mini > span.active {
+	color: black;
+}
+footer {
+    clear: both;
+    background-color: #e3f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer a:hover {
+    background-color: royalblue;
+}
+footer p {
+    text-align: center;
+}
+footer p:before {
+    content:'©';
+}
+svg {
+    width: 20%;
+    padding: 1%;
+}
